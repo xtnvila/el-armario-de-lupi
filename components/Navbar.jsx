@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <p className="logo">
         
-        <img src="https://raw.githubusercontent.com/xtnvila/img/main/logo.png" alt="El armario de Lupi" height="200px"></img>
+        <img src="https://raw.githubusercontent.com/xtnvila/img/main/logo.png" alt="El armario de Lupi" height="160px"></img>
       </p>
       {showCart && <Cart />}
     </div>
