@@ -252,7 +252,7 @@ flex-direction: column;
 }
 .banner-desc .left h3{
   font-weight: 1000;
-  font-size: 150px;
+  font-size: 90px;
   margin-left: 25px;
   margin: 0rem;
 }
@@ -268,7 +268,10 @@ flex-direction: column;
   max-height: 100%;
 }
 .banner-desc .right{
-  line-height: 15;
+  display: flex;
+  font-size: 30px;
+  padding-top: 8rem;  
+  line-height: normal;
   margin-left: 10%;
 }
 .banner-desc .right h3{
@@ -674,13 +677,13 @@ margin-top: 160px;
     display: flex ;
     padding-bottom: 20px;
     height: fit-content;
-    
+
   }
   .banner-desc .left h3{
 
     justify-content: left;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30px;
     margin: auto;
   }
   .banner-desc .left p{
@@ -690,6 +693,13 @@ margin-top: 160px;
   .banner-desc .right h3{
     font-size: 45px;
     justify-content: right;
+    padding-top: 0rem;
+    display: flex;
+  }
+  .banner-desc .right {
+    font-size: 45px;
+    justify-content: right;
+    padding-top: 0rem;
     display: flex;
   }
   .banner-desc .right p{
